@@ -31,4 +31,4 @@ runs:
       uses: docker/metadata-action@v5
       id: meta
       with:
-        images: ghcr.io/amrc-factoryplus/${{ inputs.service-name }}
+        images: ghcr.io/iaero-centre/${{ inputs.service-name }}
