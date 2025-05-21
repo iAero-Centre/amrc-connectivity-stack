@@ -19,4 +19,4 @@ runs:
         COSIGN_EXPERIMENTAL: "true"
       # This step uses the identity token to provision an ephemeral certificate
       # against the sigstore community Fulcio instance.
-      run: echo "ghcr.io/amrc-factoryplus/${{ inputs.service-name }}:${{ inputs.version }}" | xargs -I {} cosign sign --yes {}@${{ inputs.digest }}
+      run: echo "ghcr.io/iaero-centre/${{ inputs.service-name }}:${{ inputs.version }}" | xargs -I {} cosign sign --yes {}@${{ inputs.digest }}
