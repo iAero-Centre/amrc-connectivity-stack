@@ -397,7 +397,7 @@ jobs:
       - name: Build index
         run: |
           cd build
-          helm repo index --url https://amrc-factoryplus.github.io/amrc-connectivity-stack/build .
+          helm repo index --url https://iaero-centre.github.io/amrc-connectivity-stack/build .
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         id: auto_commit_action
